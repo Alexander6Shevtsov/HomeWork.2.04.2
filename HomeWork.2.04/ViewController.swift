@@ -30,7 +30,7 @@ final class ViewController: UIViewController {
     }
     
     @IBAction private func sliderAction(_ sender: UISlider) {
-        
+        setColor()
         switch sender {
         case redSlider:
             redLabel.text = string(from: redSlider)
