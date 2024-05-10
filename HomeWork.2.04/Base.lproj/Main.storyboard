@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork_2_04" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork_2_04_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MkT-X7-lLr">
                                         <rect key="frame" x="101.66666666666666" y="0.0" width="259.33333333333337" height="110"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cJD-w2-JwE">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cJD-w2-JwE">
                                                 <rect key="frame" x="-2" y="0.0" width="263.33333333333331" height="31"/>
                                                 <color key="minimumTrackTintColor" red="0.86579030749999997" green="0.28236051049999999" blue="0.071582537119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <connections>
@@ -96,7 +96,7 @@
                                                     <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="adB-vn-bfc"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zQl-od-W47">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.69999999999999996" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zQl-od-W47">
                                                 <rect key="frame" x="-2" y="80" width="263.33333333333331" height="31"/>
                                                 <connections>
                                                     <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="BRR-l1-K84"/>
@@ -108,7 +108,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.0058051501168788315" green="0.09050278919774947" blue="0.99089520676691734" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.26402267743021318" green="0.39086943219854048" blue="0.46378152412280704" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="USn-9x-Y7t" firstAttribute="top" secondItem="Sfk-vP-2b4" secondAttribute="bottom" constant="67" id="1cw-Xz-JqT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sfk-vP-2b4" secondAttribute="trailing" constant="16" id="LBu-eX-tff"/>
