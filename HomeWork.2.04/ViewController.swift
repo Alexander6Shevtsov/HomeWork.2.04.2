@@ -22,13 +22,6 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         
         colorsView.layer.cornerRadius = 10
-       
-        colorsView.backgroundColor = UIColor(
-            red: CGFloat(redSlider.value),
-            green: CGFloat(greenSlider.value),
-            blue: CGFloat(blueSlider.value),
-            alpha: 1
-        )
     }
     
     @IBAction private func sliderAction(_ sender: UISlider) {
@@ -44,4 +37,3 @@ final class ViewController: UIViewController {
         blueLabel.text = String(format: "%.2f", blueSlider.value)
     }
 }
-
