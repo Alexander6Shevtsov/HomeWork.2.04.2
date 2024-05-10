@@ -14,17 +14,18 @@ final class ViewController: UIViewController {
     @IBOutlet private var greenLabel: UILabel!
     @IBOutlet private var blueLabel: UILabel!
     
-    @IBOutlet private var redSlider: UISlider!
-    @IBOutlet private var greenSlider: UISlider!
-    @IBOutlet private var blueSlider: UISlider!
-    
+    @IBOutlet var redSlider: UISlider!
+    @IBOutlet var greenSlider: UISlider!
+    @IBOutlet var blueSlider: UISlider!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         colorsView.layer.cornerRadius = 10
     }
     
-    @IBAction private func sliderAction(_ sender: UISlider) {
+    
+    @IBAction func sliderAction() {
         colorsView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
@@ -37,3 +38,26 @@ final class ViewController: UIViewController {
         blueLabel.text = String(format: "%.2f", blueSlider.value)
     }
 }
+
+
+
+
+
+
+
+
+
+
+//    @IBAction private func sliderAction(_ sender: UISlider) {
+//        colorsView.backgroundColor = UIColor(
+//            red: CGFloat(redSlider.value),
+//            green: CGFloat(greenSlider.value),
+//            blue: CGFloat(blueSlider.value),
+//            alpha: 1
+//        )
+//
+//        redLabel.text = String(format: "%.2f", redSlider.value)
+//        greenLabel.text = String(format: "%.2f", greenSlider.value)
+//        blueLabel.text = String(format: "%.2f", blueSlider.value)
+//    }
+

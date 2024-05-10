@@ -86,20 +86,20 @@
                                                 <rect key="frame" x="-2" y="0.0" width="263.33333333333331" height="31"/>
                                                 <color key="minimumTrackTintColor" red="0.86579030749999997" green="0.28236051049999999" blue="0.071582537119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <connections>
-                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="q7j-j9-xad"/>
+                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="tpG-9F-ipH"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pcQ-cA-GHw">
                                                 <rect key="frame" x="-2" y="40" width="263.33333333333331" height="31"/>
                                                 <color key="minimumTrackTintColor" red="0.58665471869999997" green="1" blue="0.65850994529999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <connections>
-                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="adB-vn-bfc"/>
+                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="B1T-aA-xDy"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.69999999999999996" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zQl-od-W47">
                                                 <rect key="frame" x="-2" y="80" width="263.33333333333331" height="31"/>
                                                 <connections>
-                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="BRR-l1-K84"/>
+                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="xIq-SL-H01"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -120,12 +120,12 @@
                     </view>
                     <connections>
                         <outlet property="blueLabel" destination="Pof-2v-Whc" id="87P-MF-fan"/>
-                        <outlet property="blueSlider" destination="zQl-od-W47" id="kk6-Wn-a3Y"/>
+                        <outlet property="blueSlider" destination="zQl-od-W47" id="XNl-wr-kpN"/>
                         <outlet property="colorsView" destination="Sfk-vP-2b4" id="EUa-2w-anE"/>
                         <outlet property="greenLabel" destination="Nzu-wt-5zX" id="HYT-zp-Y23"/>
-                        <outlet property="greenSlider" destination="pcQ-cA-GHw" id="1JJ-vi-wsw"/>
+                        <outlet property="greenSlider" destination="pcQ-cA-GHw" id="NG7-wf-Wu2"/>
                         <outlet property="redLabel" destination="L6G-Hj-5eS" id="hUc-55-Dlk"/>
-                        <outlet property="redSlider" destination="cJD-w2-JwE" id="OMl-IE-HZh"/>
+                        <outlet property="redSlider" destination="cJD-w2-JwE" id="Ttx-5d-rVn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
