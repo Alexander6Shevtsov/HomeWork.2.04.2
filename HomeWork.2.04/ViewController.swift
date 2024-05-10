@@ -24,7 +24,6 @@ final class ViewController: UIViewController {
         colorsView.layer.cornerRadius = 10
     }
     
-    
     @IBAction func sliderAction() {
         colorsView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
