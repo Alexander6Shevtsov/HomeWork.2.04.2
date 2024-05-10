@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4256CA772BAAAEC0005E38B5 /* HomeWork.2.04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.2.04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4256CA772BAAAEC0005E38B5 /* HomeWork.2.04.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.2.04.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4256CA7A2BAAAEC0005E38B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4256CA7C2BAAAEC0005E38B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4256CA7E2BAAAEC0005E38B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		4256CA782BAAAEC0005E38B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4256CA772BAAAEC0005E38B5 /* HomeWork.2.04.app */,
+				4256CA772BAAAEC0005E38B5 /* HomeWork.2.04.2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4256CA762BAAAEC0005E38B5 /* HomeWork.2.04 */ = {
+		4256CA762BAAAEC0005E38B5 /* HomeWork.2.04.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4256CA8B2BAAAEC3005E38B5 /* Build configuration list for PBXNativeTarget "HomeWork.2.04" */;
+			buildConfigurationList = 4256CA8B2BAAAEC3005E38B5 /* Build configuration list for PBXNativeTarget "HomeWork.2.04.2" */;
 			buildPhases = (
 				4256CA732BAAAEC0005E38B5 /* Sources */,
 				4256CA742BAAAEC0005E38B5 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HomeWork.2.04;
+			name = HomeWork.2.04.2;
 			productName = HomeWork.2.04;
-			productReference = 4256CA772BAAAEC0005E38B5 /* HomeWork.2.04.app */;
+			productReference = 4256CA772BAAAEC0005E38B5 /* HomeWork.2.04.2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4256CA762BAAAEC0005E38B5 /* HomeWork.2.04 */,
+				4256CA762BAAAEC0005E38B5 /* HomeWork.2.04.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -363,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4256CA8B2BAAAEC3005E38B5 /* Build configuration list for PBXNativeTarget "HomeWork.2.04" */ = {
+		4256CA8B2BAAAEC3005E38B5 /* Build configuration list for PBXNativeTarget "HomeWork.2.04.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4256CA8C2BAAAEC3005E38B5 /* Debug */,
